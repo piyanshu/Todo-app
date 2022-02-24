@@ -1,0 +1,115 @@
+/* Body section */
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: grey;
+}
+.outline{
+    outline:none;
+}
+#container{
+    width:70%;
+    margin:auto;
+    background-color: white;
+    height:auto;
+}
+/* Title of the page */
+#title{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color:grey;
+    text-align: center;
+}
+/* Styling of the forms starts */
+
+/* input in the form */
+.inputs{
+    border:none;
+    font-size: 1rem;
+    width:95%;
+}
+/* labels in the form */
+.labels{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#container1{
+    display:flex;
+    flex-direction: column;
+    height:300px;
+    margin-top:2%;
+}
+#containera{
+    border-top:1px solid grey;
+    height:30%;
+}
+#container2{
+    margin:1%;
+}
+#container3{
+    border-top:1px solid grey;
+    display:flex;
+    height:30%;
+}
+#container4{
+    margin:1%;
+    width:50%;
+    border-right: 1px solid grey;
+}
+#container5{
+    margin:1%;
+}
+#container6{
+    border-top:1px solid grey;
+    display:flex;
+    height:40%;
+}
+/* button in the form */
+#btn1{
+    background-color: red;
+    color:white;
+    height:55%;
+    margin:auto;
+    width:25%;
+    border:none;
+    font-size: 1.5rem;
+}
+.container7{
+    border-top:1px solid grey;
+    height:15%;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.container8{
+    display:flex;
+    width:80%;
+    height:80%;
+    font-size: 1.2rem;
+    margin-top: 1.5%;
+}
+.conatiner9{
+    width:5%;
+    margin-left:1%;
+}
+.container11{
+    display:flex;
+    width:20%;
+    height:80%;
+    margin-top: 1.5%;
+    justify-content: space-between;
+}
+.container12{
+    width:auto;
+    height:35%;
+    padding:3%;
+    font-size:1.2rem;
+    background-color: purple;
+    color: white;
+}
+.container13{
+    width:30%;
+    font-size:1.5rem;
+    color:red;
+}
+/* End of the body section */
