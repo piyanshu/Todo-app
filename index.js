@@ -45,7 +45,7 @@ app.get('/', function(req, res){
             console.log('error in fetching list items');
             return;
         }
-        // console.log('succesully fetching list items');
+        console.log('succesully fetching list items');
         return res.render('index', {
             title: "TODO APP",
             todo_list: list_items
